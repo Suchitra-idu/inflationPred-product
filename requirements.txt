@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+matplotlib
+scikit-learn
+xgboost
+statsmodels
+openai
+pypdf
+python-dotenv
+python-dateutil
+requests
+beautifulsoup4
