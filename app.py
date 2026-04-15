@@ -228,7 +228,7 @@ def preview_dialog(title: str, text: str):
 @st.cache_data
 def load_historical_data(pca_fit_end: str = None):
     """Load and preprocess historical inflation data. Events come from user uploads only."""
-    base_dir = Path(__file__).parent.parent
+    base_dir = Path(__file__).parent
     data_path = base_dir / "SLData.csv"
 
     if not data_path.exists():
