@@ -125,13 +125,13 @@ def engineer_features(df: pd.DataFrame, rolling_months: int = 12, pca_fit_end: s
     # === Log transforms for skewed variables ===
     df_fe["log_Imports"] = np.log(
         df_fe["Imports Merchandise"].replace(0, np.nan)
-    ).fillna(method="ffill")
+    ).ffill()
     df_fe["log_Exports"] = np.log(
         df_fe["Exports Merchandise"].replace(0, np.nan)
-    ).fillna(method="ffill")
+    ).ffill()
     df_fe["log_BroadMoney"] = np.log(
         df_fe["Broad Money"].replace(0, np.nan)
-    ).fillna(method="ffill")
+    ).ffill()
     
     # === Differencing for non-stationary variables ===
     df_fe["diff_ExchangeRate"] = df_fe["Official exchange rate"].diff()
