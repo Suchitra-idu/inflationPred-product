@@ -143,10 +143,10 @@ Adjusted_Inflation_Hybrid      3.60  ← Recommended (average of 4 methods)
 **Purpose:** Main Streamlit UI with 4 tabs
 
 **Sidebar:**
-- 📅 Date range picker (start/end forecast dates)
-- 🔧 Rolling window size (6-120 months)
-- 📊 Data status & load button
-- 🤖 LLM toggle (enable/disable OpenAI calls)
+- Date range picker (start/end forecast dates)
+- Rolling window size (6-120 months)
+- Data status & load button
+- LLM toggle (enable/disable OpenAI calls)
 
 **Tab 1: Upload & Classify**
 - Batch file uploader (PDF, TXT, MD)
@@ -155,23 +155,23 @@ Adjusted_Inflation_Hybrid      3.60  ← Recommended (average of 4 methods)
 - Tables: Parsed dates + Extracted events (with intensity scores)
 
 **Tab 2: Prediction Results**
-- 📊 Generate forecasts button (SARIMAX + XGBoost + LLM adjustment)
-- 📋 Results table (Date | Actual | SARIMAX | SARIMAX+XGB | All LLM variants | Hybrid)
-- 📈 Charts:
+- Generate forecasts button (SARIMAX + XGBoost + LLM adjustment)
+- Results table (Date | Actual | SARIMAX | SARIMAX+XGB | All LLM variants | Hybrid)
+- Charts:
   - Forecast comparison (Actual vs SARIMAX vs Hybrid)
   - Confidence intervals (95% CI)
   - Residuals (forecast errors)
-- 📊 Performance metrics (MAE, RMSE, MAPE, Directional Accuracy)
+- Performance metrics (MAE, RMSE, MAPE, Directional Accuracy)
 
 **Tab 3: Event Summary**
-- 📊 Bar charts:
+- Bar charts:
   - Average intensity by event category
   - Event occurrence count
-- 📋 Summary table (Category | Mean Intensity | Count)
+- Summary table (Category | Mean Intensity | Count)
 
 **Tab 4: Export**
-- 📥 Download forecast CSV
-- 📥 Download events CSV
+- Download forecast CSV
+- Download events CSV
 
 ---
 
@@ -185,7 +185,7 @@ User Action:
 ├─ Upload 3 documents (auto-parsed):
 │  ├─ 2024-06_report.pdf → Year: 2024, Month: 6 ✓
 │  ├─ 2024-12_article.txt → Year: 2024, Month: 12 ✓
-│  └─ invalid_file.md → Year: None, Status: ⚠️
+│  └─ invalid_file.md → Year: None, Status: 
 ├─ Enable LLM classification
 └─ Click "Analyze Documents"
 
