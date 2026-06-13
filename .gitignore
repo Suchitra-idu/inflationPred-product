@@ -1,1 +1,42 @@
+# Environment variables
 .env
+*.env
+
+# Data files
+*.csv
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit local config
+.streamlit/
+
+# Virtual environments
+venv/
+.env.local
+.venv/
+ENV/
+env/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test output
+.pytest_cache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
