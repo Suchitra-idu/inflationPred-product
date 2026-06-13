@@ -1,4 +1,4 @@
-# 🇱🇰 Sri Lanka Inflation Prediction System
+#  Sri Lanka Inflation Prediction System
 
 **Event-Driven Inflation Forecasting with SARIMAX + XGBoost + LLM Event Analysis**
 
