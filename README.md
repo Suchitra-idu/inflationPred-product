@@ -2,6 +2,10 @@
 
 **Event-Driven Inflation Forecasting with SARIMAX + XGBoost + LLM Event Analysis**
 
+
+https://github.com/user-attachments/assets/df41c56f-5d0c-450e-9d57-b93c2bafc66c
+
+
 ## Overview
 
 This system predicts Sri Lanka inflation using:
